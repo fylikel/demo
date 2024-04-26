@@ -1,0 +1,192 @@
+/* 去除常见标签默认的 margin 和 padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 设置网页统一的字体大小、行高、字体系列相关属性 */
+body {
+  font: 14px/1 'PingFangSC-Regul', 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+  color: #333;
+}
+/* 去除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+/* 去除默认的倾斜效果 */
+em,
+i {
+  font-style: normal;
+}
+/* 去除a标签默认下划线，并设置默认文字颜色 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+/* 设置img的垂直对齐方式为居中对齐，去除img默认下间隙 */
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* 去除input默认样式 */
+input {
+  border: none;
+  outline: none;
+  color: #333;
+}
+.ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 1.866667vw;
+  width: 100%;
+  height: 11.733333vw;
+  background-color: #c21401;
+  font-size: 4.266667vw;
+  text-align: center;
+  line-height: 11.733333vw;
+  color: white;
+  font-weight: 700;
+}
+header h2 {
+  margin: 0 auto;
+  width: 62.666667vw;
+  height: 8vw;
+  font-size: 4.266667vw;
+  line-height: 8vw;
+}
+footer {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  border-top: 0.266667vw solid #999;
+  align-items: center;
+  width: 100%;
+  height: 13.333333vw;
+  background-color: #fff;
+}
+footer .active {
+  color: #fa2209;
+}
+footer a {
+  width: 25%;
+  text-align: center;
+}
+footer a .iconfont {
+  font-size: 6.4vw;
+}
+footer a h6 {
+  margin-top: 0.8vw;
+  font-weight: 400;
+  font-size: 3.2vw;
+}
+.search {
+  margin-top: 11.733333vw;
+  padding: 2.666667vw;
+  width: 100%;
+  height: 13.333333vw;
+  background: #f1f1f2;
+  font-size: 3.466667vw;
+}
+.search .search-content {
+  display: flex;
+  width: 94.666667vw;
+  height: 8vw;
+  background: #fff;
+  line-height: 8vw;
+  color: #999;
+  padding: 0 2.666667vw;
+  border-radius: 4vw;
+}
+.search .search-content .iconfont {
+  display: inline;
+  font-size: 3.466667vw;
+  color: #999;
+}
+.search .search-content a {
+  margin-left: 1.066667vw;
+  width: 100%;
+  color: #999;
+}
+header {
+  background-color: #fff;
+  color: #000;
+}
+.search {
+  background: #fff;
+}
+.search .search-content {
+  text-align: center;
+  background: #f7f7f7;
+  font-size: 3.733333vw;
+}
+.search .search-content a {
+  color: #6d6d6d;
+}
+.search .search-content a .iconfont {
+  font-size: 3.733333vw;
+  margin-right: 1.066667vw;
+}
+.goods {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 139.466667vw;
+}
+.goods .left {
+  overflow-y: auto;
+  width: 22.933333vw;
+  background-color: #f8f8f8;
+}
+.goods .left a {
+  display: block;
+  height: 12vw;
+  color: #444;
+  line-height: 12vw;
+  text-align: center;
+}
+.goods .left a span {
+  font-size: 3.733333vw;
+}
+.goods .left .active {
+  color: #fa2209;
+  background-color: #fff;
+}
+.goods .right {
+  overflow-y: auto;
+  flex: 1;
+  padding: 1.866667vw 2.666667vw 0;
+}
+.goods .right ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods .right ul a {
+  display: block;
+  width: 23.466667vw;
+  height: 30.933333vw;
+  text-align: center;
+}
+.goods .right ul a .pic {
+  margin: 0 auto;
+  padding: 2.133333vw 2.133333vw 0.533333vw;
+  width: 24vw;
+  height: 22.4vw;
+}
+.goods .right ul a .txt {
+  padding-bottom: 4vw;
+  height: 8.533333vw;
+  color: #444;
+  font-size: 3.466667vw;
+}

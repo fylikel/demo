@@ -1,0 +1,95 @@
+@import './base.less';
+@import './common.less';
+
+header {
+    background-color: #fff;
+    color: #000;
+}
+
+.search {
+    background: #fff;
+
+    .search-content {
+        text-align: center;
+        background: #f7f7f7;
+        font-size: 3.733333vw;
+
+        a {
+            color: #6d6d6d;
+
+            .iconfont {
+                font-size: 3.733333vw;
+                margin-right: 1.066667vw;
+            }
+        }
+
+    }
+}
+
+.goods {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 139.466667vw;
+
+    .left {
+        overflow-y: auto;
+        width: 22.933333vw;
+        background-color: #f8f8f8;
+
+        a {
+            display: block;
+            height: 12vw;
+            color: #444;
+            line-height: 12vw;
+            text-align: center;
+
+            span {
+
+                font-size: 3.733333vw;
+            }
+        }
+
+        .active {
+            color: #fa2209;
+            background-color: #fff;
+        }
+    }
+
+    .right {
+        overflow-y: auto;
+        flex: 1;
+        padding: 1.866667vw 2.666667vw 0;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+                display: block;
+                width: 23.466667vw;
+                height: 30.933333vw;
+                text-align: center;
+
+                .pic {
+                    margin: 0 auto;
+                    padding: 2.133333vw 2.133333vw 0.533333vw;
+                    width: 24vw;
+                    height: 22.4vw;
+                }
+
+                .txt {
+                    padding-bottom: 4vw;
+                    height: 8.533333vw;
+                    color: #444;
+                    font-size: 3.466667vw;
+
+                }
+
+            }
+        }
+
+
+    }
+}
+

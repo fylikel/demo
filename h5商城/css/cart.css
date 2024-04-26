@@ -1,0 +1,157 @@
+/* 去除常见标签默认的 margin 和 padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 设置网页统一的字体大小、行高、字体系列相关属性 */
+body {
+  font: 14px/1 'PingFangSC-Regul', 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+  color: #333;
+}
+/* 去除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+/* 去除默认的倾斜效果 */
+em,
+i {
+  font-style: normal;
+}
+/* 去除a标签默认下划线，并设置默认文字颜色 */
+a {
+  text-decoration: none;
+  color: #333;
+}
+/* 设置img的垂直对齐方式为居中对齐，去除img默认下间隙 */
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* 去除input默认样式 */
+input {
+  border: none;
+  outline: none;
+  color: #333;
+}
+.ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 1.866667vw;
+  width: 100%;
+  height: 11.733333vw;
+  background-color: #c21401;
+  font-size: 4.266667vw;
+  text-align: center;
+  line-height: 11.733333vw;
+  color: white;
+  font-weight: 700;
+}
+header h2 {
+  margin: 0 auto;
+  width: 62.666667vw;
+  height: 8vw;
+  font-size: 4.266667vw;
+  line-height: 8vw;
+}
+footer {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  border-top: 0.266667vw solid #999;
+  align-items: center;
+  width: 100%;
+  height: 13.333333vw;
+  background-color: #fff;
+}
+footer .active {
+  color: #fa2209;
+}
+footer a {
+  width: 25%;
+  text-align: center;
+}
+footer a .iconfont {
+  font-size: 6.4vw;
+}
+footer a h6 {
+  margin-top: 0.8vw;
+  font-weight: 400;
+  font-size: 3.2vw;
+}
+.search {
+  margin-top: 11.733333vw;
+  padding: 2.666667vw;
+  width: 100%;
+  height: 13.333333vw;
+  background: #f1f1f2;
+  font-size: 3.466667vw;
+}
+.search .search-content {
+  display: flex;
+  width: 94.666667vw;
+  height: 8vw;
+  background: #fff;
+  line-height: 8vw;
+  color: #999;
+  padding: 0 2.666667vw;
+  border-radius: 4vw;
+}
+.search .search-content .iconfont {
+  display: inline;
+  font-size: 3.466667vw;
+  color: #999;
+}
+.search .search-content a {
+  margin-left: 1.066667vw;
+  width: 100%;
+  color: #999;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background-color: #fff;
+  color: #000;
+}
+.empty {
+  margin-top: 11.733333vw;
+  padding: 24vw 6.666667vw;
+  height: 100.533333vw;
+  width: 100%;
+}
+.empty .pic {
+  margin: 0 auto;
+  width: 37.333333vw;
+  height: 24.533333vw;
+}
+.empty p {
+  margin: 6.666667vw 0;
+  font-size: 3.733333vw;
+  color: gray;
+  text-align: center;
+}
+.empty a {
+  display: block;
+  width: 29.333333vw;
+  margin: 0 auto;
+  font-size: 4.266667vw;
+  height: 8.533333vw;
+  line-height: 8.533333vw;
+  text-align: center;
+  color: #fff;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #f9211c, #ff6335);
+}

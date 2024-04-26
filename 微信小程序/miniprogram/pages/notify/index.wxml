@@ -1,0 +1,13 @@
+<scroll-view enhanced show-scrollbar="{{false}}" scroll-y>
+  <view class="notify-meta">
+    <view class="title">{{detail.title}}</view>
+    <view class="extra">
+      <view class="author">{{detail.creatorName}}</view>
+      <view class="datetime">{{detail.createdAt}}</view>
+    </view>
+  </view>
+  <view class="notify-content">
+    <!-- vue中解析html string  v-html;  小程序中用的rich-text nodes属性 -->
+    <rich-text nodes="{{detail.content}}"></rich-text>
+  </view>
+</scroll-view>
